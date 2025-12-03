@@ -1,5 +1,8 @@
 # Python Intermediate
 
+Join this codespace via this link:
+#### [xebia.ai/int-python](https://xebia.ai/int-python)
+
 ## Overview
 
 This one-day training provides practical skills in Python and its core capabilities.
