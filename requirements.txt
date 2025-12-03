@@ -1,5 +1,6 @@
-pyyaml==6.0.1       # For reading/writing YAML files
-pandas==2.0.3       # Core dataframes
-numpy==1.24.1       # Numerical operations
-pyarrow==14.0.0     # Parquet support
-fastparquet==2025.3.0  # Optional alternative Parquet engine
+notebook
+pyyaml==6.0.1       
+numpy==1.26.4
+pandas==2.3.3
+pyarrow==22.0.0    
+matplotlib==3.10.7
