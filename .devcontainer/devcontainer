@@ -1,0 +1,22 @@
+{
+  "name": "Python",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "./postCreateCommand.sh",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "workbench.startupEditor": "none",
+        "jupyter.askForKernelRestart": false,
+        "jupyter.jupyterServerType": "local",
+        "jupyter.enablePlotViewer": true,
+        "jupyter.notebook.defaultKernel": "Python 3.11"
+      },
+      "extensions": [
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "features": {},
+  "remoteUser": "vscode"
+}
