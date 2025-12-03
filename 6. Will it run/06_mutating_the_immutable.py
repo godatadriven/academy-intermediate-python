@@ -16,7 +16,7 @@ def mutating_the_immutable():
         another_tuple[2] += [99, 999]
 
     assert another_tuple == ([1, 2], [3, 4, 9], [5, 6, 99, 999])
-
+    print(another_tuple)
     print("🎉🎉🎉 It all ran!!! 🎉🎉🎉")
 
 if __name__ == "__main__":
