@@ -1,1 +1,0 @@
-sum(num_of_each_item)/len(num_of_each_item)

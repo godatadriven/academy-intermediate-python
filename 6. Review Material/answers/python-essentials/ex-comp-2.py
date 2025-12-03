@@ -1,1 +1,0 @@
-[x for x in num_list if '6' in str(x)]

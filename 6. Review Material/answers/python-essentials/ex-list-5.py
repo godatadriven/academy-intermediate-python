@@ -1,1 +1,0 @@
-sorted(shopping_list)[:3]
