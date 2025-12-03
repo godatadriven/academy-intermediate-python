@@ -1,0 +1,27 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "sales_db",
+    "credentials": {
+      "username": "admin",
+      "password": "secure_password_123"
+    }
+  },
+  "api": {
+    "endpoint": "https://api.example.com/v1",
+    "timeout": 30,
+    "retry_attempts": 3
+  },
+  "features": {
+    "enable_caching": true,
+    "enable_logging": true,
+    "log_level": "INFO"
+  },
+  "regions": [
+    "North",
+    "South",
+    "East",
+    "West"
+  ]
+}

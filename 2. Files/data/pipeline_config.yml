@@ -1,0 +1,28 @@
+pipeline_name: sales_etl_pipeline
+version: 2.1.0
+schedule: 0 2 * * *
+stages:
+- name: extract
+  source: s3://data-lake/raw/sales/
+  file_pattern: '*.csv'
+  enabled: true
+- name: transform
+  operations:
+  - remove_duplicates
+  - validate_data_types
+  - calculate_revenue
+  enabled: true
+- name: load
+  destination: postgresql://localhost:5432/warehouse
+  table: sales_fact
+  mode: append
+  enabled: true
+notifications:
+  on_success:
+  - data-team@company.com
+  on_failure:
+  - data-team@company.com
+  - ops-team@company.com
+retry_policy:
+  max_attempts: 3
+  backoff_seconds: 60

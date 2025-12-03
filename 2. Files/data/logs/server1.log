@@ -1,0 +1,5 @@
+2024-01-15 10:23:45 INFO Server started
+2024-01-15 10:24:12 ERROR Database connection failed
+2024-01-15 10:25:03 WARNING High memory usage: 85%
+2024-01-15 10:26:30 INFO Request processed
+2024-01-15 10:27:45 ERROR Timeout on API call

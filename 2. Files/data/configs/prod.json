@@ -1,0 +1,12 @@
+{
+  "database": {
+    "host": "prod-db.company.com",
+    "port": 5432,
+    "max_connections": 200
+  },
+  "api": {
+    "timeout": 60,
+    "rate_limit": 1000
+  },
+  "debug": false
+}

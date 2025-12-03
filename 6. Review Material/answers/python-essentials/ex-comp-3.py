@@ -1,0 +1,1 @@
+len([char for char in string if char.isupper()])

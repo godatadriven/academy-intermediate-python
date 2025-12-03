@@ -1,0 +1,12 @@
+{
+  "database": {
+    "host": "staging-db.company.com",
+    "port": 5432,
+    "max_connections": 50
+  },
+  "api": {
+    "timeout": 60,
+    "rate_limit": 500
+  },
+  "debug": true
+}

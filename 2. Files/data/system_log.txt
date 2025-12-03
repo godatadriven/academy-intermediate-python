@@ -1,0 +1,10 @@
+2024-01-15 10:23:45 INFO User login successful - user_id: 12345
+2024-01-15 10:24:12 INFO Data export started - records: 5000
+2024-01-15 10:25:03 WARNING High memory usage detected - 85%
+2024-01-15 10:26:30 INFO Data export completed - duration: 2m 18s
+2024-01-15 10:27:45 ERROR Connection timeout - retrying...
+2024-01-15 10:28:01 INFO Connection restored
+2024-01-15 10:30:15 INFO User logout - user_id: 12345
+2024-01-15 11:15:22 INFO Scheduled backup started
+2024-01-15 11:45:33 INFO Scheduled backup completed - size: 2.3 GB
+2024-01-15 12:00:00 WARNING Disk space below 20%
