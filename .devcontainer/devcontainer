@@ -1,7 +1,7 @@
 {
   "name": "Python",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "postCreateCommand": "./postCreateCommand.sh",
+  "postCreateCommand": "pip install -r app/requirements.txt",
   "customizations": {
     "vscode": {
       "settings": {
@@ -12,11 +12,8 @@
         "jupyter.enablePlotViewer": true,
         "jupyter.notebook.defaultKernel": "Python 3.11"
       },
-      "extensions": [
-        "ms-toolsai.jupyter"
-      ]
+      "extensions": ["ms-toolsai.jupyter"]
     }
   },
-  "features": {},
   "remoteUser": "vscode"
 }
