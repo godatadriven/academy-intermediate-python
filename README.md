@@ -2,7 +2,7 @@
 
 ## Overview
 
-This one-day training provides a practical skills in Python and its core capabilities.
+This one-day training provides practical skills in Python and its core capabilities.
 
 ## Working with the project
 
